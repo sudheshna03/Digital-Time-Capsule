@@ -1,0 +1,24 @@
+digital-memory-capsule/
+│
+├── index.html              # Landing page
+├── dashboard.html          # User dashboard
+├── add-memory.html         # Add new memory
+├── view-memory.html        # View unlocked memories
+│
+├── css/
+│   ├── style.css           # Common styles
+│   └── dashboard.css       # Dashboard-specific styles
+│
+├── js/
+│   ├── auth.js             # Login / signup logic
+│   ├── memory.js           # Memory add, unlock logic
+│   └── storage.js          # Database / localStorage handling
+│
+├── assets/
+│   └── images/             # Icons, illustrations
+│
+├── data/
+│   └── memories.json       # Sample database (for demo)
+│
+├── README.md               # Project documentation
+└── .gitignore              # Ignore unnecessary files
